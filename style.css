@@ -26,6 +26,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    padding: 0px 20px;
 }
 
 .form-item {
@@ -48,4 +49,10 @@ body {
     border-bottom: 1px solid rgb(211, 26, 66);
     outline: none;
     color: #fff;
+}
+
+#forgot-pass {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 35px;
 }
