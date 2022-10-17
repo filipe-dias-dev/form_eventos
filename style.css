@@ -56,3 +56,12 @@ body {
     justify-content: end;
     padding-bottom: 35px;
 }
+
+#submit-btn {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(211, 26, 66);
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgb(211, 26, 66);
+    padding: 8px 0px;
+}
