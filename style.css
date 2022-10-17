@@ -15,8 +15,9 @@ body {
 
 #card-content {
     background: white;
-    padding: 150px 60px;
+    padding: 100px 70px;
     border-radius: 5px;
+    box-shadow: 1px 3px 4px black;
 }
 
 #card-title {
@@ -40,6 +41,10 @@ body {
 #user-senha-label {
     padding-left: 2px;
     padding-bottom: 2px;
+}
+
+#user-password{
+    color: black;
 }
 
 .form-content {
@@ -66,6 +71,12 @@ body {
     box-shadow: 3px 3px 3px 3px rgb(211, 26, 66);
     padding: 8px 0px;
     margin-bottom: 10px;
+}
+
+#submit-btn:hover {
+    background-color: rgb(123, 4, 30);
+    box-shadow: 3px 3px 3px 3px rgb(123, 4, 30);
+    cursor: pointer;
 }
 
 a {
