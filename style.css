@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    background-color: rgb(211, 26, 66);
+}
+
+#card {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-content {
+    background: white;
+    padding: 150px 60px;
+    border-radius: 5px;
+}
+
+#card-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+#user-email-label,
+#user-senha-label {
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.form-content {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid rgb(211, 26, 66);
+    outline: none;
+    color: #fff;
+}
