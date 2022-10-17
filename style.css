@@ -64,4 +64,9 @@ body {
     color: white;
     box-shadow: 3px 3px 3px 3px rgb(211, 26, 66);
     padding: 8px 0px;
+    margin-bottom: 10px;
+}
+
+a {
+   text-decoration-line: none; 
 }
